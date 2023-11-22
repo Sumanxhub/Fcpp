@@ -1,5 +1,10 @@
 // Learning cpp
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() { cout << "Hello There" << endl; }
+string sayhello(string name) { return name; }
+int main() {
+  string name = sayhello("suman");
+  cout << "Hello " << name << endl;
+}
