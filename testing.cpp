@@ -5,6 +5,6 @@ using namespace std;
 
 string sayhello(string name) { return name; }
 int main() {
-  string name = sayhello("suman");
+  string name = sayhello("Suman");
   cout << "Hello " << name << endl;
 }
