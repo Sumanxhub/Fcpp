@@ -84,4 +84,3 @@ int main()
     cout << "sum of 1st diagonal Elements : " << diagonalsum1 << endl;
     cout << "sum of 2st diagonal Elements : " << diagonalsum2 << endl;
     return 0;
-}
